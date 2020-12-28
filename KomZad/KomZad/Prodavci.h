@@ -5,14 +5,15 @@
 #include <string> 
 using namespace std;
 
-class Prodavci 
+class Prodavci // класс пользователя
 {
 private:
-	char username; 
-	string password;
+	char username; //идентификатор пользователя
+	string password;  //пароль
 public:
-	Prodavci(char u, string p); 
-	int avtorizaciya(char u, string p);  
+	Prodavci(char u, string p); // конструктор с параметрами
+	~Prodavci(); // деструктор
+	int avtorizaciya(char u, string p);  // получение доступа
 
 };
 
