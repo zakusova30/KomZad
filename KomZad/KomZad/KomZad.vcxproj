@@ -81,6 +81,7 @@
   <ItemGroup>
     <ClInclude Include="Expense.h" />
     <ClInclude Include="ExpenseRecord.h" />
+    <ClInclude Include="Income.h" />
     <ClInclude Include="Interface.h" />
     <ClInclude Include="Prodavci.h" />
     <ClInclude Include="stdafx.h" />
@@ -89,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ExpenseRecord.cpp" />
+    <ClCompile Include="Income.cpp" />
     <ClCompile Include="Interface.cpp" />
     <ClCompile Include="KomZad.cpp" />
     <ClCompile Include="Prodavci.cpp" />
