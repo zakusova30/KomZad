@@ -88,6 +88,7 @@
     <ClInclude Include="TheFirstScreen.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ExpenseRecord.cpp" />
     <ClCompile Include="Interface.cpp" />
     <ClCompile Include="KomZad.cpp" />
     <ClCompile Include="Prodavci.cpp" />
