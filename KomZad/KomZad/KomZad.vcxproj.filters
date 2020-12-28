@@ -33,11 +33,10 @@
     <ClInclude Include="Expense.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-<<<<<<< HEAD
     <ClInclude Include="ExpenseRecord.h">
-=======
+	  <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Interface.h">
->>>>>>> dad8b63d6166bbe646c678496bcf97303ad4ff0b
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -80,11 +80,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Expense.h" />
-<<<<<<< HEAD
     <ClInclude Include="ExpenseRecord.h" />
-=======
     <ClInclude Include="Interface.h" />
->>>>>>> dad8b63d6166bbe646c678496bcf97303ad4ff0b
     <ClInclude Include="Prodavci.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
