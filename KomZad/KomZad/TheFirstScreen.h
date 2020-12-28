@@ -14,6 +14,7 @@ private:
 
 public:
 	TheFirstScreen(Prodavci* ptrPC) : ptrname(ptrPC){}
+	int getprava();
 	void inicial();
 };
 
