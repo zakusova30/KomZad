@@ -1,8 +1,9 @@
 ///// КЛАСС ТАБЛИЦЫ РАСХОДОВ  ////////
-#ifndef EXPENSELIST_H    
-#define EXPENSELIST_H   
+#ifndef EXPENSERECORD_H    
+#define EXPENSERECORD_H   
 #include <vector> 
 #include "Expense.h"
+#include <clocale>
 
 class ExpenseRecord //класс таблицы расходов
 {
