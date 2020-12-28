@@ -12,7 +12,7 @@ public:
 	string datePay;  //дата оплаты
 	float sum;   //сумма оплаты
 	Expense(){}
-	Expense(string c, string o, string d, float s) : category(c), org(o), datePay(d), sum(s)
+	Expense(string c, string o, string d, float s) : category(c), org(o), datePay(d), sum(s) // конструктор с параметрами
 	{
 	}
 };
