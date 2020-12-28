@@ -8,6 +8,7 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	setlocale(LC_ALL, "Russian");
 	return 0;
 }
 
