@@ -13,7 +13,7 @@ Prodavci::~Prodavci() //деструктор
 
 int Prodavci::avtorizaciya(char u, string p)  //получение доступа
 {
-	if ('a' == u && "1234" == p) return 1; // если входит админ то запросить пароль
+	if ('a' == u && "0000" == p) return 1; // если входит админ то запросить пароль
 	else if ('p' == u && "" == p)  return 2; // если входит продавец, то пароль не требуется 
 	else return 3;
 }
