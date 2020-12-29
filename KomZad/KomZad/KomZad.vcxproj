@@ -83,6 +83,7 @@
     <ClInclude Include="ExpenseInputScreen.h" />
     <ClInclude Include="ExpenseRecord.h" />
     <ClInclude Include="Income.h" />
+    <ClInclude Include="IncomeRecord.h" />
     <ClInclude Include="Interface.h" />
     <ClInclude Include="Prodavci.h" />
     <ClInclude Include="Sotrydniki.h" />
