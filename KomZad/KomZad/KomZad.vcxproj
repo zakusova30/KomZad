@@ -79,6 +79,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AnnualReport.h" />
     <ClInclude Include="Expense.h" />
     <ClInclude Include="ExpenseInputScreen.h" />
     <ClInclude Include="ExpenseRecord.h" />
