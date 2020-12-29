@@ -101,5 +101,8 @@
     <ClCompile Include="Prodaza.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="IncomeRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

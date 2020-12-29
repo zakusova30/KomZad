@@ -100,6 +100,7 @@
     <ClCompile Include="ExpenseInputScreen.cpp" />
     <ClCompile Include="ExpenseRecord.cpp" />
     <ClCompile Include="Income.cpp" />
+    <ClCompile Include="IncomeRecord.cpp" />
     <ClCompile Include="Interface.cpp" />
     <ClCompile Include="KomZad.cpp" />
     <ClCompile Include="Prodavci.cpp" />
