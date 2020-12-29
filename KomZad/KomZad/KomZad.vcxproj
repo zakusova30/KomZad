@@ -95,6 +95,7 @@
     <ClInclude Include="TheFirstScreen.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AnnualReport.cpp" />
     <ClCompile Include="ExpenseInputScreen.cpp" />
     <ClCompile Include="ExpenseRecord.cpp" />
     <ClCompile Include="Income.cpp" />
