@@ -1,3 +1,4 @@
+/////// пеюкхгюжхъ йкюяяю днундш /////
 #include "stdafx.h" 
 #include "Income.h" 
 

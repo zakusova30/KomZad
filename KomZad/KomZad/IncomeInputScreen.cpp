@@ -1,3 +1,4 @@
+//// пеюкхгюжхъ щйпюмю ббндю днунднб ////////////////
 #include "stdafx.h" 
 #include "IncomeInputScreen.h" 
 #include <iostream>
