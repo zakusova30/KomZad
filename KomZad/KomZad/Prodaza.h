@@ -10,9 +10,9 @@ class Prodaza
 private:
 	ProdavciList* ptrProdavciList; //указатель на список сотрудников
 	string Number;     // id - продавца
-	string Vid; //Вид товара
-	string Service; // Вид услуги
-	string Date; //Дата обращения
+	string fio;
+	string dol; // Вид должности
+	string zp;
 public:
 	Prodaza(ProdavciList* ptrPL) : ptrProdavciList(ptrPL)
 	{

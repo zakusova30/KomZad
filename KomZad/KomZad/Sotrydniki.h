@@ -18,6 +18,6 @@ public:
 	string getNumber(); //получение id
 	string getFio();//получение фио продавца
 	string getKat();//получение категории продавца
-	string getDate();//получение даты сменџ
+	string getDate();//получение зарплаты
 };
 #endif 

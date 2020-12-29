@@ -3,17 +3,18 @@
 #include <iostream>
 using namespace std;
 
-void Prodaza::prodazaProd()  //реализаци€ товара
+void Prodaza::prodazaProd()  
 {
-	cout << "¬ведите id продавца: " << endl;
+	system("cls");
+	cout << "¬ведите id сотрудника: " << endl;
 	cin >> Number;
-	cout << "¬ведите вид товара: " << endl;
-	cin >> Vid;
-	cout << "¬ведите вид услуги (если услуга не требуетс€, ничего не вводить): " << endl;
-	cin >> Service;
-	cout << "¬ведите дату продажи (01.01.2021): " << endl;
-	cin >> Date;
-	Sotrydniki* ptrS = new Sotrydniki(Number, Vid, Service, Date);
+	cout << "¬ведите ‘»ќ сотрудника: " << endl;
+	cin >> fio;
+	cout << "¬ведите должность: " << endl;
+	cin >> dol;
+	cout << "¬ведите зарплату сотрудника: " << endl;
+	cin >> zp;
+	Sotrydniki* ptrS = new Sotrydniki(Number, fio, dol, zp);
 	ptrProdavciList->insertSotr(ptrS);    //добавить запись в книгу учета продаж     
 
 }

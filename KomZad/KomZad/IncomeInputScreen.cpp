@@ -5,6 +5,7 @@
 //¬вод дохода в таблицу
 void IncomeInputScreen::setIncome()
 {
+	system("cls");
 	cout << "¬ведите ID продавца(000): " << endl;
 	cin >> ID;
 	cout << "¬ведите стоимость товара (1000): " << endl;

@@ -30,9 +30,10 @@ void Interface::menu()  //отображение меню
 		if (ptrTheFirstScreen->getprava() == 3) cout << "Проверьте идентификатор или пароль\n"; //неавторизированный пользователь
 	} while (ptrTheFirstScreen->getprava() == 3);
 
-
+	h = -1;
 	while (true)
 	{
+
 		cout << "\n";
 		cout << "/МЕНЮ/\n";
 		cout << "/////////////////////////// \n";
@@ -47,9 +48,11 @@ void Interface::menu()  //отображение меню
 			cout << "///////////////////////\n";
 			cout << "/1 - Оплата продажи  /\n";
 			cout << "/2 - Провести расходы /\n";
-				cin >> pr;
+			if (ptrTheFirstScreen->getprava() == 1) cout << "/0 - Внести данные об окладе сотрудников /\n";
+			
+				cin >> h;
 	
-			switch (pr)
+			switch (h)
 			{
 
 			case '1': 
@@ -64,6 +67,9 @@ void Interface::menu()  //отображение меню
 				ptrExpenseInputScreen->setExpense();
 				delete ptrExpenseInputScreen;
 				break;
+			case '0':  ptrProdaza = new Prodaza(ptrProdavciList);
+				ptrProdaza->prodazaProd();
+				delete ptrProdaza;
 				break;
 			default: cout << "Ошибка ввода\n";
 				break;
@@ -106,6 +112,10 @@ void Interface::menu()  //отображение меню
 				}
 
 			}
+		}
+		else if (pr == 3){
+			ptrTheFirstScreen = new TheFirstScreen(ptrProdavci);
+			ptrTheFirstScreen->inicial();
 		}
 
 		else if (pr == '0')  //выход из программы

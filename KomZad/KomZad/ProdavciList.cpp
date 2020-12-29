@@ -20,8 +20,10 @@ void ProdavciList::insertSotr(Sotrydniki* ptrP) {  //добавление id
 }
 
 void ProdavciList::display()     //отображение таблицы продажи товаров
+
 {
-	cout << "\nID продавца        |Фио продавца            |Должность               |    Дата покупки        \n";
+	system("cls");
+	cout << "\nID продавца         |Фио продавца             |Должность                |    Дата покупки        \n";
 	cout << "------------------------------------------------------------------------------------------------\n";
 	if (setPtrsSotr.empty())  //если список пустой
 		cout << "---Не было продаж---\n" << endl;
@@ -30,7 +32,7 @@ void ProdavciList::display()     //отображение таблицы продажи товаров
 		iter = setPtrsSotr.begin();
 		while (iter != setPtrsSotr.end()) //вывести все строки таблицы
 		{
-			cout << setw(19) << (*iter)->getNumber() << "    |     " << std::setw(19) << (*iter)->getFio() << "    |     " << std::setw(19) << (*iter)->getKat() << "    |     " << std::setw(19) << (*iter)->getDate() << endl;
+			cout << setw(15) << (*iter)->getNumber() << "    |     " << std::setw(15) << (*iter)->getFio() << "    |     " << std::setw(15) << (*iter)->getKat() << "    |     " << std::setw(15) << (*iter)->getDate() << endl;
 			*iter++;
 		}
 	}

@@ -16,7 +16,7 @@
 class Interface {
 
 private:  // раздел указтелей на таблицы и экраны
-	char pr;
+	char pr, h;
 	TheFirstScreen* ptrTheFirstScreen;
 	Prodavci* ptrProdavci;
 	ProdavciList* ptrProdavciList;

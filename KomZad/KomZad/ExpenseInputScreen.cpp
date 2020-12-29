@@ -13,7 +13,7 @@ void ExpenseInputScreen::setExpense()  //экран ввода расходов
 
 	string category, org, date;
 	float amount;
-	cout << "Введите категорию расходов (Цветы, цветы в горшках, водитель): ";
+	cout << "Введите категорию расходов (Цветы, водитель): ";
 	cin >> category;
 	cout << "Введите организацию (ИП Автоперевозки, ОАО Лютики): ";
 	cin >> org;
