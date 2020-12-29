@@ -20,3 +20,8 @@ float Income::getPriceTov()
 {
 	return priceTov;
 }
+
+float Income::getPriceService()
+{
+	return priceService;
+}
