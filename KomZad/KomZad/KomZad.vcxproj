@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Expense.h" />
+    <ClInclude Include="ExpenseInputScreen.h" />
     <ClInclude Include="ExpenseRecord.h" />
     <ClInclude Include="Income.h" />
     <ClInclude Include="Interface.h" />

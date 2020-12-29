@@ -1,3 +1,4 @@
+////// ĞÅÀËÈÇÀÖÈß ÊËÀÑÑÀ ÒÀÁËÈÖÀ ĞÀÑÕÎÄÎÂ/////
 #include "stdafx.h" 
 #include "ExpenseRecord.h" 
 #include <iostream>
