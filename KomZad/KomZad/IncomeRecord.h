@@ -1,9 +1,10 @@
+///// КЛАСС ТАБЛИЦЫ ДОХОДОВ  ////////
 #ifndef INCOMERECORD_H   
 #define INCOMERECORD_H   
 #include <list> 
 #include "Income.h"
 
-class IncomeRecord  //таблица доходов
+class IncomeRecord  
 {
 private:
 

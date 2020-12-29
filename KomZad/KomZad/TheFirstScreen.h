@@ -7,15 +7,15 @@
 class TheFirstScreen
 {
 private:
-	Prodavci* ptrname;
-	char username1;
-	string password1;
-	int prava;
+	Prodavci* ptrname; //указатель на использующего
+	char username1; //идентификатор
+	string password1;  // пароль
+	int prava; // право доступа
 
 public:
-	TheFirstScreen(Prodavci* ptrPC) : ptrname(ptrPC){}
-	int getprava();
-	void inicial();
+	TheFirstScreen(Prodavci* ptrPC) : ptrname(ptrPC){} // конструктор
+	int getprava(); // получить номер права доступа
+	void inicial(); //ввод пользователя
 };
 
 #endif 

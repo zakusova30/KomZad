@@ -1,10 +1,10 @@
-//// КЛАСС ПРОДАВЦОВ /////////
+//// КЛАСС СОТРУДНИКОВ /////////
 #ifndef SOTRYDNIKI_H   
 #define SOTRYDNIKI_H
 #include <string> 
 using namespace std;
 
-class Sotrydniki // класс продавца
+class Sotrydniki 
 {
 private:
 	string number;   // id - продавца
@@ -18,6 +18,6 @@ public:
 	string getNumber(); //получение id
 	string getFio();//получение фио продавца
 	string getKat();//получение категории продавца
-	string getDate();//получение даты сменя
+	string getDate();//получение даты сменЫ
 };
 #endif 

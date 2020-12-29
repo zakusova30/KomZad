@@ -1,8 +1,9 @@
+////////// КЛАСС ДОХОДОВ ////////
 #ifndef INCOME_H    
 #define INCOME_H   
 #include <string> 
 using namespace std;
-class Income //Класс доходов
+class Income 
 {
 private:
 	string id; //id продавца

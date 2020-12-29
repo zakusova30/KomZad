@@ -1,11 +1,11 @@
-//////////////////////  ИНИЦИАЛИЗАЦИЯ ПОЛЬЗОВАТЕЛЯ   /////////////////
+//////////////////////  КЛАСС ИНИЦИАЛИЗАЦИИ ПОЛЬЗОВАТЕЛЯ   /////////////////
 
 #ifndef PRODAVCI_H   
 #define PRODAVCI_H 
 #include <string> 
 using namespace std;
 
-class Prodavci // класс пользователя
+class Prodavci 
 {
 private:
 	char username; //идентификатор пользователя

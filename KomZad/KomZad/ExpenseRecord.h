@@ -5,7 +5,7 @@
 #include "Expense.h"
 #include <clocale>
 
-class ExpenseRecord //класс таблицы расходов
+class ExpenseRecord 
 {
 private:
 	vector<Expense*> vectPtrsExpenses;  //указатель контейнер вектор на расходы

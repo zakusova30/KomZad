@@ -3,7 +3,7 @@
 #define EXPENSEINPUTSCREEN_H  
 #include "ExpenseRecord.h"
 
-class ExpenseInputScreen //класс экрана ввода расходов
+class ExpenseInputScreen 
 {
 private:
 	ExpenseRecord* ptrExpenseList; //указатель на таблицу расходов

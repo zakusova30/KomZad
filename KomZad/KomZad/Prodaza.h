@@ -1,13 +1,14 @@
+//////// КЛАСС УЧЕТА СОТРУДНИКОВ НА СМЕНЕ /////
 #ifndef PRODAZA_H   
 #define PRODAZA_H  
 #include <string> 
 #include "ProdavciList.h"
 using namespace std;
 
-class Prodaza  // класс продажи 
+class Prodaza  
 {
 private:
-	ProdavciList* ptrProdavciList; //указатель на список продавцов
+	ProdavciList* ptrProdavciList; //указатель на список сотрудников
 	string Number;     // id - продавца
 	string Vid; //Вид товара
 	string Service; // Вид услуги
@@ -16,6 +17,6 @@ public:
 	Prodaza(ProdavciList* ptrPL) : ptrProdavciList(ptrPL)
 	{
 	}
-	void prodazaProd(); // продажа товара
+	void prodazaProd(); 
 };
 #endif 

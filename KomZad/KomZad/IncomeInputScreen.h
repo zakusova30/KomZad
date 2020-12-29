@@ -1,3 +1,4 @@
+//////// КЛАСС ЭКРАНА ВВОДА ДОХОДОВ ///////
 #ifndef INCOMEINPUTSCREEN_H    
 #define INCOMEINPUTSCREEN_H   
 #include "ProdavciList.h"
@@ -5,7 +6,7 @@
 #include <string> 
 
 using namespace std;
-class IncomeInputScreen //класс экрана ввода доходов
+class IncomeInputScreen 
 {
 private:
 	IncomeRecord* ptrIncomeR; //указатель на таблицу доходов

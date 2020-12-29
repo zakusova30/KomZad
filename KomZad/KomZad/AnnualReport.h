@@ -1,9 +1,10 @@
+///////////////////////// КЛАСС ГОДОВОГО ОТЧЕТА ///////////////////
 #ifndef ANNUALREPORT_H  
 #define ANNUALREPORT_H   
 #include "IncomeRecord.h"
 #include "ExpenseRecord.h"
 
-class AnnualReport // Класс годового отчета
+class AnnualReport 
 {
 private:  IncomeRecord* ptrIN;  //указатель на таблицу доходов       
 		  ExpenseRecord* ptrER;  //указатель на таблицу расходов 
