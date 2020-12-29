@@ -99,6 +99,7 @@
     <ClCompile Include="Interface.cpp" />
     <ClCompile Include="KomZad.cpp" />
     <ClCompile Include="Prodavci.cpp" />
+    <ClCompile Include="ProdavciList.cpp" />
     <ClCompile Include="Sotrydniki.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
