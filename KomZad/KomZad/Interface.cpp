@@ -52,11 +52,15 @@ void Interface::menu()  //отображение меню
 			switch (pr)
 			{
 
-			case '1': ptrIncomeInputScreen = new IncomeInputScreen(ptrIncomeRecord);
+			case '1': 
+				system("cls"); 
+				ptrIncomeInputScreen = new IncomeInputScreen(ptrIncomeRecord);
 				ptrIncomeInputScreen->setIncome();
+
 				delete ptrIncomeInputScreen;
 				break;
-			case '2': ptrExpenseInputScreen = new ExpenseInputScreen(ptrExpenseRecord);
+			case '2': system("cls"); 
+				ptrExpenseInputScreen = new ExpenseInputScreen(ptrExpenseRecord);
 				ptrExpenseInputScreen->setExpense();
 				delete ptrExpenseInputScreen;
 				break;
@@ -83,13 +87,17 @@ void Interface::menu()  //отображение меню
 				switch (pr)
 				{
 
-				case '1': ptrProdavciList->display();
+				case '1': system("cls"); 
+					ptrProdavciList->display();
 					break;
-				case '2':ptrIncomeRecord->display();
+				case '2':system("cls"); 
+					ptrIncomeRecord->display();
 					break;
-				case '3': ptrExpenseRecord->display();
+				case '3': system("cls"); 
+					ptrExpenseRecord->display();
 					break;
-				case '4':ptrAnnualReport = new AnnualReport(ptrIncomeRecord, ptrExpenseRecord);
+				case '4':system("cls"); 
+					ptrAnnualReport = new AnnualReport(ptrIncomeRecord, ptrExpenseRecord);
 					ptrAnnualReport->display();
 					delete ptrAnnualReport;
 					break;
